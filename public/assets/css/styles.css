@@ -1,0 +1,19 @@
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25%,
+    75% {
+        transform: translateX(7px);
+    }
+    50% {
+        transform: translateX(-7px);
+    }
+}
+
+.error-message {
+    color: red;
+    animation: shake 0.5s ease-in-out 1.5;
+    font-size: 12px;
+}
